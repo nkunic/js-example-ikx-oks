@@ -58,8 +58,8 @@ function checkLines() {
     xoItem[6].innerHTML !== ''
   ) {
     // console.log('Pogodak!');
-    xoItem[3].style.background = 'tomato';
-    xoItem[4].style.background = 'tomato';
-    xoItem[5].style.background = 'tomato';
+    xoItem[6].style.background = 'tomato';
+    xoItem[7].style.background = 'tomato';
+    xoItem[8].style.background = 'tomato';
   }
 }
