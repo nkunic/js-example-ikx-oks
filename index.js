@@ -25,9 +25,9 @@ function createTable() {
 function insertSymbol() {
   // this.innerHTML = 'X';
   if (symbol == 'O') {
-    symbol == 'X'
+    symbol = 'X';
   } else {
-    symbol == 'O'
+    symbol = 'O'
   }
   this.innerHTML = symbol;
 }
