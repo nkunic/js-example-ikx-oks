@@ -12,8 +12,13 @@ body {
 
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+h1 + .xo {
+  margin-top: 1.25rem;
 }
 
 .xo {
@@ -35,4 +40,6 @@ body {
   cursor: pointer;
   font-family: cursive;
   font-size: 2rem;
+  color: white;
+  background-color: cadetblue;
 }
