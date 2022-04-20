@@ -27,14 +27,16 @@ function insertSymbol() {
   if (symbol == 'O') {
     symbol = 'X';
   } else {
-    symbol = 'O'
+    symbol = 'O';
   }
   this.innerHTML = symbol;
   checkLines();
 }
 
 function checkLines() {
-  if (xo[0].innerHTML == xo[1].innerHTML && xo[0].innerHTML == xo[2].innerHTML && xo[0].innerHTML !== "") {
+  if (xoItem[0].innerHTML == xoItem[1].innerHTML && xoItem[0].innerHTML == xoItem[2].innerHTML && xoItem[0].innerHTML !== "") {
+    console.log('Pogodak!');
+  } else if (xoItem[0].innerHTML == xoItem[1].innerHTML && xoItem[0].innerHTML == xoItem[2].innerHTML && xoItem[0].innerHTML !== "") {
     console.log('Pogodak!');
   }
 }
