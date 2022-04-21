@@ -61,5 +61,50 @@ function checkLines() {
     xoItem[6].style.background = 'tomato';
     xoItem[7].style.background = 'tomato';
     xoItem[8].style.background = 'tomato';
+  } else if (
+    xoItem[0].innerHTML == xoItem[3].innerHTML &&
+    xoItem[0].innerHTML == xoItem[6].innerHTML &&
+    xoItem[0].innerHTML !== ''
+  ) {
+    // console.log('Pogodak!');
+    xoItem[0].style.background = 'tomato';
+    xoItem[3].style.background = 'tomato';
+    xoItem[6].style.background = 'tomato';
+  } else if (
+    xoItem[1].innerHTML == xoItem[4].innerHTML &&
+    xoItem[1].innerHTML == xoItem[7].innerHTML &&
+    xoItem[1].innerHTML !== ''
+  ) {
+    // console.log('Pogodak!');
+    xoItem[1].style.background = 'tomato';
+    xoItem[4].style.background = 'tomato';
+    xoItem[7].style.background = 'tomato';
+  } else if (
+    xoItem[2].innerHTML == xoItem[5].innerHTML &&
+    xoItem[2].innerHTML == xoItem[8].innerHTML &&
+    xoItem[2].innerHTML !== ''
+  ) {
+    // console.log('Pogodak!');
+    xoItem[2].style.background = 'tomato';
+    xoItem[5].style.background = 'tomato';
+    xoItem[8].style.background = 'tomato';
+  } else if (
+    xoItem[0].innerHTML == xoItem[4].innerHTML &&
+    xoItem[0].innerHTML == xoItem[8].innerHTML &&
+    xoItem[0].innerHTML !== ''
+  ) {
+    // console.log('Pogodak!');
+    xoItem[0].style.background = 'tomato';
+    xoItem[4].style.background = 'tomato';
+    xoItem[8].style.background = 'tomato';
+  } else if (
+    xoItem[2].innerHTML == xoItem[4].innerHTML &&
+    xoItem[2].innerHTML == xoItem[6].innerHTML &&
+    xoItem[2].innerHTML !== ''
+  ) {
+    // console.log('Pogodak!');
+    xoItem[2].style.background = 'tomato';
+    xoItem[4].style.background = 'tomato';
+    xoItem[6].style.background = 'tomato';
   }
 }
