@@ -3,6 +3,7 @@ import './style.css';
 
 // Write Javascript code!
 
+/*** TIC-TAC-TOE GAME ***/
 var xo = document.querySelector('.xo');
 
 createTable();
